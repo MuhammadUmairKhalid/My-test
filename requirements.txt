@@ -5,3 +5,4 @@ dj-database-url
 gunicorn
 PyJWT==2.8.0
 stripe==11.4.1
+opencv-python-headless==4.10.0.84

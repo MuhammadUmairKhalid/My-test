@@ -25,8 +25,9 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEGUB","FALSE").lower() == "true"
 AUTH_USER_MODEL = "Auth.User"
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
-print("Allowed hosts",ALLOWED_HOSTS)
+# ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
+# print("Allowed hosts",ALLOWED_HOSTS)
+ALLOWED_HOSTS = ["*"]
 # CORS_ALLOW_ALL_ORIGINS = True
 
 # Application definition

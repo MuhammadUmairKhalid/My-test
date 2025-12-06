@@ -3,3 +3,4 @@ djangorestframework
 psycopg2
 dj-database-url
 gunicorn
+PyJWT==2.8.0
